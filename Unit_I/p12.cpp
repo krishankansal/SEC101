@@ -1,3 +1,10 @@
+// Write a program using nested for loop for printing following pattern
+// in the output
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
 #include <stdio.h>
 int main()
 {
