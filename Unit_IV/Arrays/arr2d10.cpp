@@ -1,0 +1,1 @@
+// To initialize a 2-D array and find the sum of each row
