@@ -1,4 +1,4 @@
-// To initialize a 2-D array and find the sum of all elements and averagw
+// To initialize a 2-D array and find the sum of each column
 #include <stdio.h>
 int main()
 {
@@ -8,13 +8,14 @@ int main()
         {9, 10, 11, 12}};
     int sum = 0;
     // Printing the 2D array
-    for (int i = 0; i < 3; i++)
+    for (int j = 0; j < 4; j++)
     {
-        for (int j = 0; j < 4; j++)
+        sum = 0;
+        for (int i = 0; i < 3; i++)
         {
             sum = sum + arr[i][j];
         }
+        printf("Sum of column %d: %d\n", j + 1, sum);
     }
-    printf("Sum of all elements: %d\n", sum);
     return 0;
 }
